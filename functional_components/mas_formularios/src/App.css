@@ -1,0 +1,35 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  text-align: left;
+  color:grey;
+}
+
+.input_field {
+  height: 30px;
+  width: 300px;
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input_field input{
+  border: none;
+  border-radius: 5px;
+}
+
+.input_field_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn_submit {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+}
